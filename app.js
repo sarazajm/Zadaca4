@@ -15,3 +15,13 @@ function ispisiRijec(rijec){
     r.innerHTML = "Vasa rijec za pretragu je: "+rijec;
     document.getElementById("head-col").appendChild(r);
 }
+
+function funkcija(n){
+    if(n%2 === 0){
+        console.log(n)
+    }
+    if (n > 1){
+        funkcija(n-1);
+    }
+}
+funkcija(11);
